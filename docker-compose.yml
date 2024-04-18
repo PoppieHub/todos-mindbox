@@ -1,0 +1,43 @@
+# версия синтаксиса
+version: '3.8'
+
+# в этом блоке мы описываем контейнеры, которые будут запускаться
+services:
+  # контейнер с Node
+  client:
+    container_name: client
+    restart: always
+    build:
+      context: ./app/client
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./app/client:/data/todos-mindbox.client
+    networks:
+      - app-network
+
+  #контейнер с Nginx
+  webserver:
+    build:
+      context: ./nginx
+      dockerfile: Dockerfile
+    image: myapp/nginx
+    restart: always # перезагружать после падения - всегда
+    depends_on:  # зависит от включенного node
+      - client
+    container_name: webserver
+    volumes:
+      - ./app/client:/data/todos-mindbox.client
+      - ./nginx/hosts:/etc/nginx/sites-enabled
+    # проброс портов
+    ports:
+      - "80:80"
+      - "443:443"
+    networks:
+      - app-network
+
+#Docker Networks
+networks:
+  app-network:
+    driver: bridge
