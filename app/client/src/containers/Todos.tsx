@@ -14,7 +14,7 @@ const Todos: React.FC = () => {
         if (e.key === 'Enter') {
             const target = e.target as HTMLInputElement;
 
-            tasks.push({
+            target.value.length > 0 && tasks.push({
                 id: Date.now(),
                 isCompleted: false,
                 name: target.value

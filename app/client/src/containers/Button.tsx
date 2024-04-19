@@ -17,7 +17,7 @@ const Button: React.FC<ButtonProps> = (props) => {
                 );
             }
         }
-    }, [props.activeButton]);
+    }, [props.activeButton, props.className, props.filtered]);
 
     return (
         <ButtonComponent

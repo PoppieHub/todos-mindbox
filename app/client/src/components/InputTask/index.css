@@ -7,7 +7,7 @@
     .container__wrapperTask {
         display: flex;
         gap: 12px;
-        padding: 18px 0 16px 15px;
+        padding: 18px 0 16px 25px;
 
         & input {
             opacity: 0;

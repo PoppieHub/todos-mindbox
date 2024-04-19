@@ -56,20 +56,20 @@
     height: 20px;
     background: var(--background-list);
     border-bottom: 1px solid var(--text-muted);
-    box-shadow: 0 0,5px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
 }
 
 .container__backPage_first {
     bottom: 20px;
     left: 5%;
-    width: 89%;
+    width: 90%;
     z-index: 2;
 }
 
 .container__backPage_second {
     bottom: 16px;
     left: 6%;
-    width: 87%;
+    width: 88%;
     z-index: 1;
 }
 

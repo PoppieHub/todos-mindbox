@@ -53,3 +53,11 @@
         }
     }
 }
+
+@media (max-width: 890px) {
+    .container__inputField {
+        & input {
+            font-size: 14px;
+        }
+    }
+}
