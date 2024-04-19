@@ -1,6 +1,7 @@
 import React from 'react';
 import {TaskListProps} from "../../models";
 import {InputTask} from "../../containers";
+import "./index.css";
 
 const TaskList: React.FC<TaskListProps> = (props) => {
     return (

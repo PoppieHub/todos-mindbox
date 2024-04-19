@@ -1,0 +1,17 @@
+button {
+    background: none;
+    color: var(--text-main);
+
+    cursor: pointer;
+
+    opacity: 0.7;
+}
+
+.container__filterButton {
+    padding: 5px 8px;
+}
+
+.container__filterButton_active {
+    border: 1.2px solid var(--text-main);
+    border-radius: 3px;
+}

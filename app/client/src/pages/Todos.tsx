@@ -6,6 +6,7 @@ import {
 } from "../components";
 import {ManagerTools} from "../containers";
 import {TodosPages} from "../models";
+import "./Todos.css";
 
 const Todos: React.FC<TodosPages> = (props) => {
 
@@ -29,6 +30,8 @@ const Todos: React.FC<TodosPages> = (props) => {
                       selectFilteredHandler={props.selectFilteredHandler}
                   />
               </footer>
+              <div className="container__backPage container__backPage_first" />
+              <div className="container__backPage container__backPage_second" />
           </div>
     </div>
     );

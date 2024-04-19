@@ -1,0 +1,7 @@
+.container__TaskList {
+    background: var(--background-list);
+    border-bottom: 1px solid var(--text-muted);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}

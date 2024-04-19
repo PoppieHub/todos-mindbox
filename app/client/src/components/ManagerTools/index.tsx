@@ -1,6 +1,7 @@
 import React from 'react';
 import {ManagerToolsComponentProps, TaskFilter} from "../../models";
 import {Button} from "../../containers";
+import "./index.css";
 
 const ManagerTools: React.FC<ManagerToolsComponentProps> = (props) => {
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import {Todos} from './containers/';
+import './asseets/styles/layouts/layout.css';
+import {Todos} from './containers';
 
 const root = ReactDOM.createRoot(
   document.querySelector('#root') as HTMLElement

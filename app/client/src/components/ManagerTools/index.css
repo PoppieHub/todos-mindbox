@@ -1,0 +1,26 @@
+.container__managerTools {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container__listFilters {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+@media (max-width: 890px) {
+    .container__managerTools {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+    .container__listFilters {
+        display: flex;
+        flex-direction: column;
+    }
+}

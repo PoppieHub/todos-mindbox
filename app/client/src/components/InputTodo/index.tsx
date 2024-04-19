@@ -1,5 +1,6 @@
 import React from 'react';
 import {InputTodoProps} from "../../models";
+import "./index.css";
 
 const InputTodo: React.FC<InputTodoProps> = (props) => {
     return (
