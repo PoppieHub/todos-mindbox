@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/todos-mindbox/static/css/main.ade0f969.css",
+    "main.js": "/todos-mindbox/static/js/main.606aa972.js",
+    "static/media/Montserrat-ExtraLightItalic.ttf": "/todos-mindbox/static/media/Montserrat-ExtraLightItalic.8df5777e3ea85687bdf0.ttf",
+    "static/media/Montserrat-Regular.ttf": "/todos-mindbox/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
+    "static/media/Montserrat-Thin.ttf": "/todos-mindbox/static/media/Montserrat-Thin.9a7aece9cfe235bc0920.ttf",
+    "static/media/arrow-down.svg": "/todos-mindbox/static/media/arrow-down.efa9b38d928ba4bdf2f0.svg",
+    "index.html": "/todos-mindbox/index.html",
+    "main.ade0f969.css.map": "/todos-mindbox/static/css/main.ade0f969.css.map",
+    "main.606aa972.js.map": "/todos-mindbox/static/js/main.606aa972.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ade0f969.css",
+    "static/js/main.606aa972.js"
+  ]
+}
